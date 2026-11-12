@@ -1,0 +1,36 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\KarthikSPrabhu\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\KarthikSPrabhu\Desktop\SEM 05\C SE-LAB\SE-LAB-PES1UG25AM805\LAB-06\L6_L7_60_marathon_registration\LAB6
+plugins: anyio-4.15.1, langsmith-0.14.4
+collecting ... collected 21 items
+
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_race_not_in_entry_fee_true PASSED [  4%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_race_not_in_entry_fee_false PASSED [  9%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_age_below_12_true PASSED [ 14%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_age_below_12_false PASSED [ 19%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_half_full_and_under_18_both_true PASSED [ 23%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_half_full_true_but_age_under_18_false PASSED [ 28%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_half_full_false PASSED [ 33%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_is_early_bird_true_and_false PASSED [ 38%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_senior_citizen_true_and_false PASSED [ 42%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_needs_tshirt_true_and_false PASSED [ 47%]
+BranchCoverageTest_marathon_registration.py::test_branch_entry_fee_all_modifiers_combined PASSED [ 52%]
+BranchCoverageTest_marathon_registration.py::test_branch_start_wave_timing_none_true_and_false PASSED [ 57%]
+BranchCoverageTest_marathon_registration.py::test_branch_start_wave_race_full_true_and_false PASSED [ 61%]
+BranchCoverageTest_marathon_registration.py::test_branch_start_wave_wave_a_condition_true_and_false_full PASSED [ 66%]
+BranchCoverageTest_marathon_registration.py::test_branch_start_wave_wave_a_condition_true_and_false_non_full PASSED [ 71%]
+BranchCoverageTest_marathon_registration.py::test_branch_start_wave_wave_b_elif_condition_true_and_false_full PASSED [ 76%]
+BranchCoverageTest_marathon_registration.py::test_branch_start_wave_wave_b_elif_condition_true_and_false_non_full PASSED [ 80%]
+BranchCoverageTest_marathon_registration.py::test_branch_finisher_status_checkpoints_missed_true_and_false PASSED [ 85%]
+BranchCoverageTest_marathon_registration.py::test_branch_finisher_status_race_full_true_and_false PASSED [ 90%]
+BranchCoverageTest_marathon_registration.py::test_branch_finisher_status_race_half_true_and_false PASSED [ 95%]
+BranchCoverageTest_marathon_registration.py::test_branch_finisher_status_elapsed_within_limit_true_and_false PASSED [100%]
+
+============================= 21 passed in 0.31s ==============================
+
+Name                       Stmts   Miss Branch BrPart  Cover   Missing
+----------------------------------------------------------------------
+marathon_registration.py      38      0     28      0   100%
+----------------------------------------------------------------------
+TOTAL                         38      0     28      0   100%
