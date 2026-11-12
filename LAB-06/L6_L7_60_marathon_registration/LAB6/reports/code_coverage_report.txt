@@ -1,0 +1,43 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\KarthikSPrabhu\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\KarthikSPrabhu\Desktop\SEM 05\C SE-LAB\SE-LAB-PES1UG25AM805\LAB-06\L6_L7_60_marathon_registration\LAB6
+plugins: anyio-4.15.1, langsmith-0.14.4
+collecting ... collected 28 items
+
+CodeCoverageTest_marathon_registration.py::test_entry_fee_all_four_valid_races PASSED [  3%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_invalid_race PASSED [  7%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_age_below_12 PASSED [ 10%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_half_marathon_age_below_18 PASSED [ 14%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_full_marathon_age_below_18 PASSED [ 17%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_early_bird_discount PASSED [ 21%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_senior_citizen_discount PASSED [ 25%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_tshirt_additional_charge PASSED [ 28%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_combination_early_bird_and_senior PASSED [ 32%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_combination_discounts_and_tshirt PASSED [ 35%]
+CodeCoverageTest_marathon_registration.py::test_entry_fee_boundary_ages PASSED [ 39%]
+CodeCoverageTest_marathon_registration.py::test_start_wave_none_timing PASSED [ 42%]
+CodeCoverageTest_marathon_registration.py::test_start_wave_wave_a_full_marathon PASSED [ 46%]
+CodeCoverageTest_marathon_registration.py::test_start_wave_wave_a_other_races PASSED [ 50%]
+CodeCoverageTest_marathon_registration.py::test_start_wave_wave_b_full_marathon PASSED [ 53%]
+CodeCoverageTest_marathon_registration.py::test_start_wave_wave_b_other_races PASSED [ 57%]
+CodeCoverageTest_marathon_registration.py::test_start_wave_wave_c_full_marathon PASSED [ 60%]
+CodeCoverageTest_marathon_registration.py::test_start_wave_wave_c_other_races PASSED [ 64%]
+CodeCoverageTest_marathon_registration.py::test_start_wave_exact_cutoff_boundaries PASSED [ 67%]
+CodeCoverageTest_marathon_registration.py::test_start_wave_exact_75_percent_cutoff_boundaries PASSED [ 71%]
+CodeCoverageTest_marathon_registration.py::test_finisher_status_disqualified_when_checkpoints_missed PASSED [ 75%]
+CodeCoverageTest_marathon_registration.py::test_finisher_status_within_full_marathon_limit PASSED [ 78%]
+CodeCoverageTest_marathon_registration.py::test_finisher_status_beyond_full_marathon_limit PASSED [ 82%]
+CodeCoverageTest_marathon_registration.py::test_finisher_status_within_half_marathon_limit PASSED [ 85%]
+CodeCoverageTest_marathon_registration.py::test_finisher_status_beyond_half_marathon_limit PASSED [ 89%]
+CodeCoverageTest_marathon_registration.py::test_finisher_status_within_other_race_limits PASSED [ 92%]
+CodeCoverageTest_marathon_registration.py::test_finisher_status_beyond_other_race_limits PASSED [ 96%]
+CodeCoverageTest_marathon_registration.py::test_finisher_status_exact_time_limit_boundaries PASSED [100%]
+
+============================= 28 passed in 0.06s ==============================
+
+Name                       Stmts   Miss  Cover   Missing
+--------------------------------------------------------
+marathon_registration.py      38      0   100%
+--------------------------------------------------------
+TOTAL                         38      0   100%
